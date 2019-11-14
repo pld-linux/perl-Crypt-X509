@@ -7,12 +7,12 @@
 %define		pnam	X509
 Summary:	Crypt::X509 - Parse a X.509 certificate
 Name:		perl-Crypt-X509
-Version:	0.51
+Version:	0.52
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	aadab2960d2bd65a212d1bd7f50e282a
+# Source0-md5:	dfca86dbbfa9d1e470a18f2b0d140dc0
 URL:		http://search.cpan.org/dist/Crypt-X509/
 BuildRequires:	perl-Convert-ASN1
 BuildRequires:	perl-devel >= 1:5.8.0
